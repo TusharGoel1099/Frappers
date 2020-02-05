@@ -369,8 +369,8 @@ def forget():
         import random
         import smtplib
         r=random.randint(1000,9999)
-        gmailaddress = "frappers100@gmail.com"
-        gmailpassword = "frappers@1234"
+        gmailaddress = "enter your email"
+        gmailpassword = "enter your password"
         mailto = receiver_email.get()
         msg = f"otp is {r}"
         mailServer = smtplib.SMTP('smtp.gmail.com', 587)
