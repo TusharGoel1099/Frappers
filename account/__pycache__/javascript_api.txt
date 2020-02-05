@@ -1,0 +1,5 @@
+Excel.run(function (context) {
+    var sheet = context.workbook.worksheets.getItem("Sample");
+
+    var chart = sheet.charts.getItemAt(0);
+    var seriesColl
