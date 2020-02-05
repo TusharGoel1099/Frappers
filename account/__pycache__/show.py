@@ -90,8 +90,8 @@ def pdf_emaill(pdf_email,pdf_id):
     from email.message import EmailMessage
     import smtpd,smtplib
     files=["C:\\frappers\\pdf\\."+pdf_id+".pdf"]
-    gmailaddress = "frappers100@gmail.com"
-    gmailpassword = "frappers@1234"
+    gmailaddress = "enter your email"
+    gmailpassword = "enter your password"
     msg=EmailMessage()
     msg['subject']='order reciept'
     msg['from']=gmailaddress
